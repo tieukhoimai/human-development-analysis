@@ -36,9 +36,15 @@ The analysis will focus to compare the HDI of different countries and regions ov
 The analysis will be conducted using Python and various data visualization libraries such as Matplotlib and Seaborn. The dataset will be loaded into a Pandas DataFrame, and various statistical and visualization techniques will be used to explore the data.
 
 1. Trends and Spatial Analysis: Analyzed HDI trends over time for different regions and choropleth maps to visualize the geographical distribution of HDI.
+   ![choropleth](images/choropleth.png)
 2. Univariate Analysis: Examined the distribution of HDI and its components (life expectancy, expected years of schooling, mean years of scholing and income) across different regions.
+   ![density](images/density.png)
 3. Bivariate Analysis: Investigated the relationships between HDI and other indicators (life expectancy, expected years of schooling, mean years of scholing and income).
-
+   ![le_vs_hdi](images/le_vs_hdi.png)
+   ![eys_vs_hdi](images/eys_vs_hdi.png)
+   ![mys_vs_hdi](images/mys_vs_hdi.png)
+   ![gnipc_vs_hdi](images/gnipc_vs_hdi.png)
+  
 ## Findings
 
 ### HDI (Human Development Index)
@@ -46,12 +52,14 @@ The analysis will be conducted using Python and various data visualization libra
 - Europe and Central Asia (ECA) Latin American and Caribbean (LAC) and East Asia and the Pacific (EAP) have shown the highest HDI values.
 - EAP has also seen a significant improvement in HDI since the early 2000s and approaching the levels of ECA and LAC by 2020.
 - Sub-Saharan Africa has the lowest HDI compared to other regions.
-
+  
+  ![hdi_by_time](images/hdi_by_time.png)
 ### Life Expectancy at Birth (years)
 - Life expectancy at birth has increased across all regions from 1990 to 2022.
 - ECA has the highest life expectancy at birth, reaching around 75 years by 2020.
 - Sub-Saharan Africa (SSA) has the lowest life expectancy, though it has improved over time, reaching around 60 years by 2020, as challenges like infectious diseases and poverty are gradually being addressed.
 - EAP, ECA, LAC and SA saw a sudden decrease in life expectancy in 2020-2021, likely due to the COVID-19 pandemic's impact on these regions. However, it have shown an increase in life expectancy again in 2022 as they recover from the pandemic's effects, suggesting their life expectancy values are now ranging from around 65 to 75 years.
+  ![le_by_time](images/le_by_time.png)
   
 ### Education: Expected Years of Schooling (eys) and Mean Years of Schooling (mys)
 - The eys and mys increased across all regions from 1990 to 2022.
@@ -59,12 +67,15 @@ The analysis will be conducted using Python and various data visualization libra
 - LAC has the second highest eys and mys values, followed by EAP.
 - EAP has shown a significant improvement in both eys and mys, but for mys, it still lags behind ECA and LAC by 0.5-2 years.
 - Sub-Saharan Africa has the lowest eys and mys compared to other regions.
+  ![eys_by_time](images/eys_by_time.png)
+  ![mys_by_time](images/mys_by_time.png)
 
 ### Gross National Income (GNI) per Capita
 - In 2022, ECA has the highest GNI per Capita. EAP is the second highest. LAC is the third highest and SSA continues to have the lowest GNI per Capita.
 - In 1990, EAP had the lowest GNI per Capita among the regions. However, starting around the early 2000s, the EAP region's GNI per Capita began to see a marked acceleration in growth. From 2000 to 2020, the red line depicting EAP shows a steep upward trend, indicating a rapid increase in GNI per Capita during this period. And, in 2022 EAP has moved up to the second highest position, showing a significant improvement over time.
 - The LAC region, in particular, has exhibited fluctuating GNI per Capita values, remaining around the 15,000 mark since 2008.
 - In 2019, the GNI per Capita for the Arab States, LAC, and South Asia (SA) regions all experienced decreases. However, these regions then saw a rebound in their GNI per Capita values in the subsequent year, 2020.
+  ![gnipc_by_time](images/gnipc_by_time.png)
 
 ## Discussion
 
@@ -83,7 +94,8 @@ The analysis will be conducted using Python and various data visualization libra
 ### GNI per Capita
 - While the overall trend has been one of increasing GNI per Capita across most regions, the Arab States, LAC, and SA have faced periods of stagnation or even declines in recent years, in contrast to the more consistent growth seen in other regions like Europe and Central Asia (ECA) and East Asia and the Pacific (EAP). 
 - The global financial crisis of 2008-2009 had a significant impact on the LAC region, as it is closely integrated with the global economy.
-- China and the Asian Tigers of economic rise and in particular, has been a significant driver of growth in the EAP region, propelling it to become a major economic powerhouse in the global economy.
+- China and the Asian Tigers (Hong Kong, Singapore, South Korea, and Taiwan) of economic rise and in particular, has been a significant driver of growth in the EAP region, propelling it to become a major economic powerhouse in the global economy.
+![singapore](images/singapore_gni.png)
 
 ## Bibliography
 
