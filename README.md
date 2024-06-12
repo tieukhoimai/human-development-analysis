@@ -10,7 +10,7 @@ The dataset can be downloaded from the official HDR data center at the following
 
 ## Literature Review
 
-![hdi](images/Human Development Index Roadmap.png)
+![hdi](/images/Human%20Development%20Index%20Roadmap.png)
 
 The Human Development Index (HDI) is the geometric mean of normalized indices for each of the three dimensions. The HDI is a summary measure for assessing long-term progress in three basic dimensions of human development:
 
@@ -87,6 +87,6 @@ The analysis will be conducted using Python and various data visualization libra
 
 ## Bibliography
 
-> [1] United Nations Development Programme. (n.d.). All composite indices and components time series (1990-2022). Human Development Data Center. https://hdr.undp.org/data-center/documentation-and-downloads
+> United Nations Development Programme. (n.d.). All composite indices and components time series (1990-2022). Human Development Data Center. https://hdr.undp.org/data-center/documentation-and-downloads
 
-> [2] Smits, J., & Permanyer, I. (2019). The subnational human development database. Scientific data, 6(1), 1-15.
+> Smits, J., & Permanyer, I. (2019). The subnational human development database. Scientific data, 6(1), 1-15.
