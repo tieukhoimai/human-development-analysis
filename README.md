@@ -10,7 +10,7 @@ The dataset can be downloaded from the official HDR data center at the following
 
 ## Literature Review
 
-![hdi](/images/Human%20Development%20Index%20Roadmap.png)
+![hdi](images/hdi_roadmap.png)
 
 The Human Development Index (HDI) is the geometric mean of normalized indices for each of the three dimensions. The HDI is a summary measure for assessing long-term progress in three basic dimensions of human development:
 
