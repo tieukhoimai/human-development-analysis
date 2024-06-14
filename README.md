@@ -3,6 +3,7 @@
 ## Introduction
 
 ![thumbnail](images/thumbnail.png)
+Presentation: [Human Development Analysis](https://univr-my.sharepoint.com/:p:/g/personal/khoimai_tieu_studenti_univr_it/EXsvSMXZOmtLk5VZi0lWsbwBTCjmf2ny-ev8F5dXdNRJIA?e=qghouC)
 
 The Human Development Index (HDI) published yearly since 1990 by the United Nations Development Program (UNDP) is perhaps the most popular index used to assess countries’ well-being levels across the globe. Defined as an average of achievements in health, education and standard of living, its popularity can be attributed to the simplicity of its characterization and to its underlying message that “development is more than economic growth”.
 
@@ -35,7 +36,7 @@ The dataset contains information on the HDI, as well as its components (life exp
 - Reshaping the Data: The dataset was reshaped to facilitate analysis. This involved transforming the data from a wide format to a long format by pivoting for more suitable structure for analysis.
 - Region Alignment: UNDP utilizes distinct regional classifications based on development similarities, differing from conventional global or continental divisions. Some regions may be absent in the HDI dataset due to these unique classifications. To ensure comprehensive analysis, external data sources were integrated to include all regions in the study.
   
-  <img src="images/region.png" width="420"/> <img src="images/new_region.png" width="420"/>
+  <img src="images/region.png" width="450"/> <img src="images/new_region.png" width="450"/>
 
 - Grouping by Region and Year: The data was grouped by year and region, and the mean values for each indicator were calculated.
 
