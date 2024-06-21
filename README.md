@@ -36,7 +36,7 @@ The dataset contains information on the HDI, as well as its components (life exp
 - Reshaping the Data: The dataset was reshaped to facilitate analysis. This involved transforming the data from a wide format to a long format by pivoting for more suitable structure for analysis.
 - Region Alignment: UNDP utilizes distinct regional classifications based on development similarities, differing from conventional global or continental divisions. Some regions may be absent in the HDI dataset due to these unique classifications. To ensure comprehensive analysis, external data sources were integrated to include all regions in the study.
   
-  <img src="images/region.png" width="450"/> <img src="images/new_region.png" width="450"/>
+  <img src="images/region.png" width="420"/> <img src="images/new_region.png" width="420"/>
 
 - Grouping by Region and Year: The data was grouped by year and region, and the mean values for each indicator were calculated.
 
